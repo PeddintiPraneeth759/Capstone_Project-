@@ -1,0 +1,18 @@
+# Keep the repository limited to the application folders.
+/*
+!/backend/
+!/frontend/
+!/.gitignore
+
+# Exclude dependencies, generated output, and local secrets.
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.vite/
+**/__pycache__/
+**/*.py[cod]
+**/*.log
+**/.env
+**/.env.*
+!**/.env.example
